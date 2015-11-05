@@ -1,0 +1,15 @@
+head
+  meta(content="width=device-width, initial-scale=1, user-scalable=no", name="viewport")
+  title Google Maps Sample
+body
+  nav.navbar.navbar-default.navbar-static-top
+    .container
+      .navbar-header
+        .navbar-brand Google Maps Sample
+      .navbar-collapse
+        ul.nav.navbar-nav.navbar-right
+          +loginButtons
+  .container
+    +queryHistory
+    +searchMap
+    +searchResults

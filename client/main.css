@@ -1,0 +1,14 @@
+.form-area {
+  margin-bottom: 12px;
+}
+.map-area {
+  margin-bottom: 28px;
+  height: 250px;
+}
+.search-results .header .count {
+  font-size: 1.6em;
+  float: left;
+}
+.search-results .header .export {
+  float: right;
+}

@@ -1,0 +1,13 @@
+template(name="queryHistory")
+  .query-history
+    table.table.table-bordered
+      tbody
+        +each queries
+          tr
+            td.delete
+              a.btn.btn-default.btn-xs &times;
+            td {{query}}
+            td {{lat}}
+            td {{lng}}
+            td {{radius}}
+            td {{createdAt}}

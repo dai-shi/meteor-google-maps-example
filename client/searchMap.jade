@@ -1,0 +1,6 @@
+template(name="searchMap")
+  .form-area
+    form.search-form
+      input.form-control.col12(name="query", placeholder="Type search query...")
+  .map-area
+    +googleMap options=mapOptions centerLat=centerLat centerLng=centerLng zoom=zoom markers=venues}}

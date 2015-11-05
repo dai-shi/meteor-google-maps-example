@@ -1,0 +1,23 @@
+template(name="searchResults")
+  .search-results
+    .header
+      //- should be 1 venue instead of 1 venues
+      .count {{venues.count}} venues
+      .export
+        button.btn.btn-success Export CSV
+    table.table.table-striped
+      thead
+        tr
+          th Name
+          th City
+          th Street Address
+          th Latitude
+          th Longitude
+      tbody
+        +each venues
+          tr
+            td {{name}}
+            td {{location.city}}
+            td {{location.address}}
+            td {{location.lat}}
+            td {{location.lng}}
