@@ -1,7 +1,7 @@
-Google Maps Sample (Meteor)
+Google Maps Example (Meteor)
 ===========================
 
-This is a sample application to demonstrate how to utilize Google Maps and Foursquare.
+This is an example application to demonstrate how to utilize Google Maps and Foursquare.
 
 TODOs
 -----
